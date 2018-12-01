@@ -40,5 +40,5 @@ for files in themes:
     open('sass/themes/'+files,"w")
     
 f= open("sass/main.scss","w")
-f.write("@import 'abstracts/animations.scss';\n@import 'abstracts/mixins.scss';\n  @import 'abstracts/variables.scss';\n  @import 'abstracts/phaceholder.scss;'\n@import 'components/buttons.scss';\n@import 'components/carousel.scss';\n@import 'components/cove.scss';\n@import 'components/dropdown.scss';\n@import 'layout/navigarion.scss';\n@import 'layout/grid.scss';\n@import 'layout/header.scss';\n@import 'layout/footer.scss';\n@import 'layout/sidebar.scss';\n@import 'layout/form.scss';\n@import 'pages/home.scss';\n@import 'pages/contact.scss';\n@import 'themes/theme.scss';\n")
+f.write("@import 'abstracts/animations';\n@import 'abstracts/mixins';\n  @import 'abstracts/variables';\n  @import 'abstracts/phaceholder;'\n@import 'components/buttons';\n@import 'components/carousel';\n@import 'components/cove';\n@import 'components/dropdown';\n@import 'layout/navigarion';\n@import 'layout/grid';\n@import 'layout/header';\n@import 'layout/footer';\n@import 'layout/sidebar';\n@import 'layout/form';\n@import 'pages/home';\n@import 'pages/contact';\n@import 'themes/theme';\n")
 f.close()
