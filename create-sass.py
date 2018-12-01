@@ -27,7 +27,7 @@ for files in base:
     open('sass/base/'+files,"w")
 
 for files in components:
-    open('/sass/components/'+files,"w")
+    open('sass/components/'+files,"w")
 
 for files in layout:
     open('sass/layout/'+files,"w")
