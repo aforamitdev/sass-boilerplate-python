@@ -7,9 +7,9 @@ base=['_reset.scss','_typology.scss'];
 
 components=['_buttons.scss','_carousel.scss','_cover.scss','_dropdown.scss'];
 
-layout=['_navigation.scss','_grid.scss','header.scss','_footer.scss','_sidebar.scss','forms.scss']
+layout=['_navigation.scss','_grid.scss','_header.scss','_footer.scss','_sidebar.scss','_forms.scss']
 
-pages=['_home.scss','contact.scss'];
+pages=['_home.scss','_contact.scss'];
 
 themes=['_theme.scss','_admin.scss']
 
@@ -40,5 +40,5 @@ for files in themes:
     open('sass/themes/'+files,"w")
     
 f= open("sass/main.scss","w")
-f.write("@import 'abstracts/animations.scss'\n@import 'abstracts/mixins.scss'\n  @import 'abstracts/variables.scss'\n  @import 'abstracts/phaceholder.scss'\n@import 'components/buttons.scss'\n@import 'components/carousel.scss'\n@import 'components/cove.scss'\n@import 'components/dropdown.scss'\n@import 'layout/navigarion.scss'\n@import 'layout/grid.scss'\n@import 'layout/header.scss'\n@import 'layout/footer.scss'\n@import 'layout/sidebar.scss'\n@import 'layout/form.scss'\n@import 'pages/home.scss'\n@import 'pages/contact.scss'\n@import 'themes/theme.scss'\n")
+f.write("@import 'abstracts/animations.scss';\n@import 'abstracts/mixins.scss';\n  @import 'abstracts/variables.scss';\n  @import 'abstracts/phaceholder.scss;'\n@import 'components/buttons.scss';\n@import 'components/carousel.scss';\n@import 'components/cove.scss';\n@import 'components/dropdown.scss';\n@import 'layout/navigarion.scss';\n@import 'layout/grid.scss';\n@import 'layout/header.scss';\n@import 'layout/footer.scss';\n@import 'layout/sidebar.scss';\n@import 'layout/form.scss';\n@import 'pages/home.scss';\n@import 'pages/contact.scss';\n@import 'themes/theme.scss';\n")
 f.close()
