@@ -40,5 +40,5 @@ for files in themes:
     open('sass/themes/'+files,"w")
     
 f= open("sass/main.scss","w")
-f.write("@import 'abstracts/animations';\n@import 'abstracts/mixins';\n  @import 'abstracts/variables';\n  @import 'abstracts/phaceholder';\n@import 'components/buttons';\n@import 'components/carousel';\n@import 'components/cove';\n@import 'components/dropdown';\n@import 'layout/navigation';\n@import 'layout/grid';\n@import 'layout/header';\n@import 'layout/footer';\n@import 'layout/sidebar';\n@import 'layout/forms';\n@import 'pages/home';\n@import 'pages/contact';\n@import 'themes/theme';\n")
+f.write("@import 'abstracts/animations';\n@import 'abstracts/mixins';\n  @import 'abstracts/variables';\n  @import 'abstracts/phaceholder';\n@import 'components/buttons';\n@import 'components/carousel';\n@import 'components/cover';\n@import 'components/dropdown';\n@import 'layout/navigation';\n@import 'layout/grid';\n@import 'layout/header';\n@import 'layout/footer';\n@import 'layout/sidebar';\n@import 'layout/forms';\n@import 'pages/home';\n@import 'pages/contact';\n@import 'themes/theme';\n")
 f.close()
